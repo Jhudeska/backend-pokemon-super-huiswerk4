@@ -1,6 +1,6 @@
 public class WaterPokemon extends Pokemon {
 
-    public WaterPokemon(String name) {
+    public WaterPokemon(String name, String salmon, String squirellSquirell) {
         super(name);
     }
 
@@ -21,7 +21,7 @@ public class WaterPokemon extends Pokemon {
 
     @Override
     void surf() {
-
+        System.out.println("Surf on the ocean is awesome.");
     }
 
     @Override
@@ -98,7 +98,7 @@ public class WaterPokemon extends Pokemon {
         System.out.println( getName()  + " sleep.");
     }
 
-    void defense(){
-
+    void sendOutPokeball(){
+        System.out.println( getName() + " i choose you " + getLevel());
     }
 }

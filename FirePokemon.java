@@ -1,7 +1,7 @@
 public class FirePokemon extends Pokemon{
 
 
-    public FirePokemon(String name) {
+    public FirePokemon(String charmander, String salmon, String name) {
         super(name);
     }
 
@@ -96,14 +96,11 @@ public class FirePokemon extends Pokemon{
     }
 
     void sleep(){
-
+        System.out.println( getName()  + " sleep.");
     }
 
-    void defense(){
-
+    void sendOutPokeball(){
+        System.out.println( getName() + " i choose you " + getLevel());
     }
 
-
-
-    // TODO: 2 methodes, 1 Override methode en getters & setters
 }

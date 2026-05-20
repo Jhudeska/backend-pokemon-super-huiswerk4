@@ -1,7 +1,7 @@
 public class GrassPokemon extends Pokemon {
 
 
-    public GrassPokemon(String name) {
+    public GrassPokemon(String name, String salmon, String squirellSquirell) {
         super(name);
     }
 
@@ -83,7 +83,7 @@ public class GrassPokemon extends Pokemon {
 
     @Override
     void rainDance() {
-
+        System.out.println("Yeah dancing in the rain!!");
     }
 
     @Override
@@ -97,16 +97,12 @@ public class GrassPokemon extends Pokemon {
     }
 
     void sleep(){
-
+        System.out.println( getName()  + " sleep.");
     }
 
-    void defense(){
-
+    void sendOutPokeball(){
+        System.out.println( getName() + " i choose you " + getLevel());
     }
 
 
-
-    //    TODO : 2 methodes (geen override)
-
-    // TODO: 2 methodes, 1 Override methode en getters & setters
 }

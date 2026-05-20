@@ -5,6 +5,14 @@ public class ElectricPokemon extends Pokemon{
         super(name);
     }
 
+    public ElectricPokemon(String name, int level, int hp, String food, String sound) {
+        super(name, level, hp, food, sound);
+    }
+
+    public ElectricPokemon(String name, String food, String sound) {
+        super(name, food, sound);
+    }
+
     @Override
     void eats() {
 
@@ -57,7 +65,7 @@ public class ElectricPokemon extends Pokemon{
 
     @Override
     void thunder() {
-
+        System.out.println("Thunder, you better watch out!");
     }
 
     @Override
@@ -96,11 +104,11 @@ public class ElectricPokemon extends Pokemon{
     }
 
     void sleep(){
-
+        System.out.println( getName()  + " sleep.");
     }
 
-    void defense(){
-
+    void sendOutPokeball(){
+        System.out.println( getName() + " i choose you " + getLevel());
     }
 
     // TODO: 2 methodes, 1 Override methode en getters & setters

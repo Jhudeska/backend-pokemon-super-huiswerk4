@@ -5,6 +5,7 @@ abstract class Pokemon {
     String food;
     String sound;
 
+
     public Pokemon(String name){
         this.name = name;
     }
@@ -16,6 +17,15 @@ abstract class Pokemon {
         this.food = food;
         this.sound = sound;
     }
+
+
+    public Pokemon(String name, String food, String sound) {
+        this.name = name;
+        this.food = food;
+        this.sound = sound;
+    }
+
+
 
     public String getName() {
         return name;
