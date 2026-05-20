@@ -10,7 +10,7 @@ Je gaat een applicatie maken die meerdere nieuwe `Pokemons` kan aanmaken. Voor d
 
 Ondanks dat deze natuurlijk een type hebben zijn het `Pokemons`, en hebben deze ook bepaalde dingen gemeen met elkaar. Daarom gaan we ook gebruik maken van een `Super klasse`
 
-![Pokemon!](../assets/pokemon.JPG)
+![Pokemon!](assets/pokemon.JPG)
 
 ## Opdracht voorwaarden
 
