@@ -6,6 +6,7 @@ public class Main {
         GrassPokemon grassPokemon = new GrassPokemon("bullbasuar", "salmon", "squirell squirell");
         FirePokemon firePokemon = new FirePokemon("charmander", "salmon", "squirell squirell ");
         ElectricPokemon electricPokemon = new ElectricPokemon("pikachu", "salmon", "squirell squirell ");
+        FireStonePokemon fireStonePokemon = new FireStonePokemon("testing", "testing",  "SandStonePokemon", "sandstone", "blue");
 
         waterPokemon.setLevel(30); //private field
         waterPokemon.setHp(45);
@@ -28,7 +29,9 @@ public class Main {
         electricPokemon.sleep();
         electricPokemon.sendOutPokeball();
 
-        //TODO: I forgot to create a home work branch, forced it with this todo to create branchg
+        fireStonePokemon.transformToStone();
+        fireStonePokemon.sleep();
+
     }
 
 }
