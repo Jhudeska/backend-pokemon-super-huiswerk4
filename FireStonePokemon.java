@@ -10,6 +10,6 @@ public class FireStonePokemon extends FirePokemon {
 
     public void transformToStone(){
         System.out.println("Pokemon transform to " + this.type + " stone. The color of the pokemon is " + this.color +
-                "and make same sound like the water pokemons" + this.sound);
+                "and make same sound like the fire pokemons" + this.sound);
     }
 }
